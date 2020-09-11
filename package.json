@@ -1,0 +1,24 @@
+{
+  "name": "m4rsh-earth",
+  "description": "Earth Terrain",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marshallcb/m4rsh-earth.git"
+  },
+  "scripts": {
+    "dev": "routo -w & serve public",
+    "build": "routo"
+  },
+  "dependencies": {
+    "routo": "^0.1.1",
+    "serve": "^11.3.2",
+    "svgo": "^1.3.2",
+    "ucontent": "^2.0.0"
+  },
+  "author": {
+    "name": "Marshall Brandt",
+    "email": "hey@m4r.sh",
+    "url": "https://m4r.sh"
+  }
+}
